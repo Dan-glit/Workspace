@@ -1,1 +1,0 @@
-console.log("hola mamá estoy triunfando");

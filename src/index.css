@@ -109,3 +109,9 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* Hace la columna de la lista scrolleable */
+.list-group {
+  max-height: 80vh;
+  overflow-y: auto;
+}

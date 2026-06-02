@@ -1,7 +1,16 @@
-# ¿Quién soy?
- Mi nombre es daniel gomez ortiz, me gusta la programación, aunque prefiero dibujo, entreno boxeo, tomo clases de cocina, trabajo un tiempo completo los fines de semana nocturnamente, soy muy alegre y buen compañero con todos, me gusta dormir.
- # Donde encontrarme
- - ig: **d.ortizzzzz**
-- Fb: **Luky dani**
-# ¿Qué es Markdowm?
-Markdown es un lenguaje de marcado ligero que permite dar formato a textos planos (negrita, cursiva, encabezados, listas) usando caracteres especiales sencillos (por ejemplo, **negrita** o # Título). Creado en 2004, su objetivo es maximizar la legibilidad y facilidad de uso, convirtiéndose luego a HTML.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

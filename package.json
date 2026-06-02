@@ -1,21 +1,28 @@
 {
-  "name": "workspace",
-  "version": "1.0.0",
-  "description": "Mi nombre es daniel gomez ortiz, me gusta la programación, aunque prefiero dibujo, entreno boxeo, tomo clases de cocina, trabajo un tiempo completo los fines de semana nocturnamente, soy muy alegre y buen compañero con todos, me gusta dormir.  # Donde encontrarme  - ig: **d.ortizzzzz** - Fb: **Luky dani** # ¿Qué es Markdowm? Markdown es un lenguaje de marcado ligero que permite dar formato a textos planos (negrita, cursiva, encabezados, listas) usando caracteres especiales sencillos (por ejemplo, **negrita** o # Título). Creado en 2004, su objetivo es maximizar la legibilidad y facilidad de uso, convirtiéndose luego a HTML.",
-  "main": "index.js",
+  "name": "reactrickandmorty",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dan-glit/Workspace.git"
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Dan-glit/Workspace/issues"
-  },
-  "homepage": "https://github.com/Dan-glit/Workspace#readme"
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "vite": "^8.0.12"
+  }
 }
